@@ -14,7 +14,7 @@ const TARGET_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 program
   .name("devpulse")
   .description("AI-powered developer productivity tool")
-  .version("1.0.0");
+  .version("1.1.0");
 
 // ==========================================
 // 1. COMMIT COMMAND
