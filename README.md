@@ -1,4 +1,3 @@
-
 # 🚀 DevPulse CLI
 
 ![npm version](https://img.shields.io/npm/v/devpulse-cli-angad?color=blue&style=flat-square)
@@ -24,7 +23,6 @@ You can install DevPulse globally on your machine using npm:
 ```bash
 npm install -g devpulse-cli-angad
 ```
-
 
 ---
 
@@ -108,7 +106,3 @@ Building this tool was an incredible journey into bridging the gap between artif
 - **Process Execution:** Gained deep experience using Node's `child_process` (`execSync`) to seamlessly control Git operations entirely through code.
 - **Registry Publishing:** Successfully navigated compiling TypeScript to JavaScript and publishing production-ready packages to the global npm registry (including bypassing 2FA security protocols).
 - **Git Internals:** Mastered staging nuances, memory clearing (`git rm -r --cached`), and correctly configuring `.gitignore` safely in live projects.
-
-
-
-
