@@ -1,4 +1,4 @@
-````markdown
+
 # 🚀 DevPulse CLI
 
 ![npm version](https://img.shields.io/npm/v/devpulse-cli-angad?color=blue&style=flat-square)
@@ -111,4 +111,4 @@ Building this tool was an incredible journey into bridging the gap between artif
 
 ```
 
-```
+
