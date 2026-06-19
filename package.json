@@ -1,14 +1,14 @@
 {
-  "name": "devplus-cli",
+  "name": "devpulse-cli-angad",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI-powered developer productivity tool",
   "type": "module",
+  "main": "dist/index.js",
   "bin": {
     "devpulse": "./dist/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
