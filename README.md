@@ -1,4 +1,3 @@
-
 # 🚀 DevPulse CLI
 
 ![npm version](https://img.shields.io/npm/v/devpulse-cli-angad?color=blue&style=flat-square)
@@ -11,10 +10,10 @@ DevPulse is an AI-powered command-line interface (CLI) tool designed to supercha
 
 ## ✨ Features
 
-* **🤖 Smart Commits:** Analyzes your staged Git changes and generates a highly context-aware, interactive list of commit messages to choose from.
-* **🧐 Automated Code Review:** Scans your latest commits and provides an instant, actionable code review highlighting good practices and potential bugs.
-* **📜 Changelog Generation:** Reads your Git history and automatically compiles a clean, beautifully formatted `CHANGELOG.md` file.
-* **⚙️ Model Flexibility:** Dynamically swap out the underlying AI engine to any supported Gemini model using environment variables.
+- **🤖 Smart Commits:** Analyzes your staged Git changes and generates a highly context-aware, interactive list of commit messages to choose from.
+- **🧐 Automated Code Review:** Scans your latest commits and provides an instant, actionable code review highlighting good practices and potential bugs.
+- **📜 Changelog Generation:** Reads your Git history and automatically compiles a clean, beautifully formatted `CHANGELOG.md` file.
+- **⚙️ Model Flexibility:** Dynamically swap out the underlying AI engine to any supported Gemini model using environment variables.
 
 ---
 
@@ -84,7 +83,7 @@ devpulse commit
 
 ```
 
-*The AI will read your diff, generate multiple professional commit messages, and let you select the best one via an interactive menu.*
+_The AI will read your diff, generate multiple professional commit messages, and let you select the best one via an interactive menu._
 
 ### 2. Review Code
 
@@ -95,7 +94,7 @@ devpulse review
 
 ```
 
-*The AI will review your most recent commit and print out feedback, architectural suggestions, and bug warnings.*
+_The AI will review your most recent commit and print out feedback, architectural suggestions, and bug warnings._
 
 ### 3. Generate a Changelog
 
@@ -106,17 +105,17 @@ devpulse changelog
 
 ```
 
-*This instantly creates or updates a `CHANGELOG.md` file in your root directory based on your last 10 commits.*
+_This instantly creates or updates a `CHANGELOG.md` file in your root directory based on your last 10 commits._
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Language:** TypeScript / Node.js
-* **AI Integration:** `@google/genai` (Supports dynamic model shifting)
-* **CLI Framework:** `commander`
-* **Interactive Prompts:** `inquirer`
-* **Package Manager:** npm
+- **Language:** TypeScript / Node.js
+- **AI Integration:** `@google/genai` (Supports dynamic model shifting)
+- **CLI Framework:** `commander`
+- **Interactive Prompts:** `inquirer`
+- **Package Manager:** npm
 
 ---
 
@@ -124,8 +123,10 @@ devpulse changelog
 
 Building this tool was an incredible journey into bridging the gap between artificial intelligence and local developer environments. Key takeaways include:
 
-* **CLI Architecture:** Mastered building global executable commands using Node.js, `commander`, and updating local system environments.
-* **LLM Integration:** Learned how to effectively prompt and integrate Google's Gemini API directly into programmatic logic, rather than just web interfaces.
-* **Process Execution:** Gained deep experience using Node's `child_process` (`execSync`) to seamlessly control Git operations entirely through code.
-* **Registry Publishing:** Successfully navigated compiling TypeScript to JavaScript and publishing production-ready packages to the global npm registry (including bypassing 2FA security protocols).
-* **Git Internals:** Mastered staging nuances, memory clearing (`git rm -r --cached`), and correctly configuring `.gitignore` safely in live projects.
+- **CLI Architecture:** Mastered building global executable commands using Node.js, `commander`, and updating local system environments.
+- **LLM Integration:** Learned how to effectively prompt and integrate Google's Gemini API directly into programmatic logic, rather than just web interfaces.
+- **Process Execution:** Gained deep experience using Node's `child_process` (`execSync`) to seamlessly control Git operations entirely through code.
+- **Registry Publishing:** Successfully navigated compiling TypeScript to JavaScript and publishing production-ready packages to the global npm registry (including bypassing 2FA security protocols).
+- **Git Internals:** Mastered staging nuances, memory clearing (`git rm -r --cached`), and correctly configuring `.gitignore` safely in live projects.
+
+  ![DevPulse CLI Demo](./demo.gif)
