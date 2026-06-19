@@ -1,4 +1,4 @@
-```markdown
+
 # 🚀 DevPulse CLI
 
 ![npm version](https://img.shields.io/npm/v/devpulse-cli-angad?color=blue&style=flat-square)
@@ -132,13 +132,7 @@ Building this tool was an incredible journey into bridging the gap between artif
 
 ```
 
-*(Tip: Use the copy button in the top right of the code block above to ensure you grab all the raw formatting!)*
 
-Once saved in VS Code, push the fix to GitHub:
-```powershell
-git add README.md
-git commit -m "docs: fix broken code blocks and formatting"
-git push
 
 ```
 
